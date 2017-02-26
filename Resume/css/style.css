@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+dd,
+dt,
+h1,
+h2,
+h3,
+h4,
+h5,
+li,
+p {
+    cursor: default
+}
+dd {
+    -webkit-margin-start: 30px;
+}
+
+body {
+    background: #fff;
+}
+
+.container {
+    background-color: #fff;
+    position: relative;
+    margin: 10px auto;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .4), 0 3px 1px -2px rgba(0, 0, 0, .5), 0 1px 5px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .4), 0 3px 1px -2px rgba(0, 0, 0, .5), 0 1px 5px 0 rgba(0, 0, 0, .4);
+    width: 1080px;
+    height: 1900px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 300px;
+    padding: 10px 10px 1220px;
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+}
+.side-head {
+    padding: 20px 10px 30px;
+}
+.side-head h2, .side-head h3 {
+    color: #fff;
+    padding: 5px;
+}
+.side-head img {
+    width: 80%;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 0 2px black;
+    margin: 10px auto;
+}
+.side-icon {
+    display: inline-block;
+    position: relative;
+    top:7px;
+    height: 42px;
+    width:40px;
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon-sample-code.svg);
+}
+.side-part {
+    padding-left: 15px;
+    text-align: left;
+}
+.side-part dt span {
+    font-size: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+
+.main {
+    position: relative;
+    top: -2100px;
+    left: 320px;
+    width: 720px;
+}
+.main a {
+    color: #333;
+}
+.icon {
+    height: 38px;
+    position: relative;
+    top:10px;
+}
+.main-part dt {
+     border-bottom: 1px solid #333;
+     margin-bottom: 20px;
+}
+.main-part dt span {
+     font-size: 22px;
+     font-weight: 400;
+}
+.main-part li {
+    margin-left: 20px;
+
+}
+.main-part h3 {
+    font-weight: 400;
+}
+.per-exp a {
+    color: #000;
+    font-size: 12px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 5px;
+}
+.per-exp a:hover {
+    border: 1px solid #999;
+    color: #999;
+    text-decoration: none;
+}
+.per-exp p {
+    padding-left:30px; 
+}
+.per-exp img {
+    width: 220px;
+    padding: 5px;
+}
+.per-exp span {
+    font-weight: 400;
+}
+.main-skill span {
+    font-weight: 400;
+}
