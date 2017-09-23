@@ -1,11 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>杨万榕的作品展示</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>练习集</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .side {
+            height: 100%;
+            width: 25%;
+            background-color: #333;
+            color: #fff;
+            float: left;
+        }
+
+        .side-title {
+            font-size: 32px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 100px;
+            border-bottom: 1px solid #999;
+        }
+
+        .side-navbar {
+            border-bottom: 1px solid #999;
+        }
+        .side-navbar li {
+            font-size: 20px;
+            line-height: 80px;
+            text-align: center;
+        }
+        .side-navbar li:hover {
+            border:3px solid #fff;
+        }
+
+        .side-navbar li a {
+            color: #fff;
+        }
+
+        .main {
+            float: left;
+            width: 70%;
+        }
+
+        .main-pro {
+            width: 100%;
+            background-color: #eee;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            border: 2px solid #fff;
+        }
+        .main-pro:hover {
+            border: 3px solid #999;
+        }
+
+        .main-pro a {
+            color: #333;
+        }
+        @media (max-width: 768px){
+            .side {
+                width: 100%;
+            }
+            .side-title {
+                font-size: 24px; 
+                line-height: 60px;
+            }
+            .side-navbar {
+                display: none;
+            }
+            .main {
+                width: 90%;
+            }
+            .main-pro {
+                margin: 20px 5%;
+            }
+        }
+    </style>
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="side">
+            <div class="side-title">练习集</div>
+            <div class="side-navbar">
+                <ul>
+                    <li><a href="">All</a></li>
+                    <li><a href="">ES5/css/html</a></li>
+                    <li><a href="">nodejs</a></li>
+                    <li><a href="">webpack</a></li>
+                    <li><a href="">Vue</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-pro">
+                <a href="#">
+                    <div class="main-pro-title"><b>项目</b></div>
+                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                </a>
+            </div>
+            <div class="main-pro">
+                <a href="#">
+                    <div class="main-pro-title">项目</div>
+                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                </a>
+            </div>
+            <div class="main-pro">
+                <a href="#">
+                    <div class="main-pro-title">项目</div>
+                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                </a>
+            </div>
+            <div class="main-pro">
+                <a href="#">
+                    <div class="main-pro-title">项目</div>
+                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                </a>
+            </div>
+            <div class="main-pro">
+                <a href="#">
+                    <div class="main-pro-title">项目</div>
+                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                </a>
+            </div>
+            <div class="main-pro">
+                <a href="#">
+                    <div class="main-pro-title">项目</div>
+                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
