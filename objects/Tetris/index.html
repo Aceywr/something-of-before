@@ -1,12 +1,25 @@
 <!DOCTYPE>
 <html>
-    <head>
-        <title>Tetris</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <div id="score"></div>
+
+<head>
+    <title>Tetris</title>
+    <meta charset="utf-8">
+    <style>
+        .container {
+            width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div><span>分数：</span><span id="score"></span></div>
         <canvas id="tetris" width="240" height="400"></canvas>
-        <script src="tetris.js"></script>
-    </body>
+        <div>"上"：变换方向，"左右"：移动，"下"：加速</div>
+    </div>
+
+    <script src="tetris.js"></script>
+</body>
+
 </html>
