@@ -21,11 +21,11 @@
         }
 
         .side {
-            height: 100%;
             width: 25%;
             background-color: #333;
             color: #fff;
             float: left;
+            position: fixed;
         }
 
         .side-title {
@@ -39,13 +39,15 @@
         .side-navbar {
             border-bottom: 1px solid #999;
         }
+
         .side-navbar li {
             font-size: 20px;
             line-height: 80px;
             text-align: center;
         }
+
         .side-navbar li:hover {
-            border:3px solid #fff;
+            border: 3px solid #fff;
         }
 
         .side-navbar li a {
@@ -53,8 +55,9 @@
         }
 
         .main {
-            float: left;
+            float: right;
             width: 70%;
+            margin-right: 4%;
         }
 
         .main-pro {
@@ -65,6 +68,7 @@
             border-radius: 5px;
             border: 2px solid #fff;
         }
+
         .main-pro:hover {
             border: 3px solid #999;
         }
@@ -72,12 +76,22 @@
         .main-pro a {
             color: #333;
         }
-        @media (max-width: 768px){
+
+        .main-pro-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .main-pro-content {
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
             .side {
                 width: 100%;
             }
             .side-title {
-                font-size: 24px; 
+                font-size: 24px;
                 line-height: 60px;
             }
             .side-navbar {
@@ -85,6 +99,7 @@
             }
             .main {
                 width: 90%;
+                margin-right: 10%;
             }
             .main-pro {
                 margin: 20px 5%;
@@ -102,7 +117,8 @@
             <div class="side-navbar">
                 <ul>
                     <li><a href="">All</a></li>
-                    <li><a href="">ES5/css/html</a></li>
+                    <li><a href="">ES6/css/html</a></li>
+                    <li><a href="">jquery/bootstrap</a></li>
                     <li><a href="">nodejs</a></li>
                     <li><a href="">webpack</a></li>
                     <li><a href="">Vue</a></li>
@@ -111,39 +127,53 @@
         </div>
         <div class="main">
             <div class="main-pro">
-                <a href="#">
-                    <div class="main-pro-title"><b>项目</b></div>
-                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                <a href="objects/pure-UI/index.html">
+                    <div class="main-pro-title">Pure-UI</div>
+                    <div class="main-pro-content">Pure-UI由ES6module+webpack开发的一套组件化UI框架，主要服务于前台及中后台产品，各项功能正在持续更新中</div>
                 </a>
             </div>
             <div class="main-pro">
-                <a href="#">
-                    <div class="main-pro-title">项目</div>
-                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                <a href="objects/vue-app/index.html">
+                    <div class="main-pro-title">vue-Cnode</div>
+                    <div class="main-pro-content">由vue,vue-router,vue-resouce重构的Cnode社区，用以练习vue及相关库</div>
                 </a>
             </div>
             <div class="main-pro">
-                <a href="#">
-                    <div class="main-pro-title">项目</div>
-                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                <a href="https://github.com/Aceywr/todolist">
+                    <div class="main-pro-title">vue-todolist</div>
+                    <div class="main-pro-content">vue+nodejs+express+mongoDB开发的todolist，用以了解后端及nodejs</div>
                 </a>
             </div>
             <div class="main-pro">
-                <a href="#">
-                    <div class="main-pro-title">项目</div>
-                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                <a href="objects/Tetris/index.html">
+                    <div class="main-pro-title">Tetris</div>
+                    <div class="main-pro-content">由原生js+canvas实现的俄罗斯方块游戏，练习原生js</div>
                 </a>
             </div>
             <div class="main-pro">
-                <a href="#">
-                    <div class="main-pro-title">项目</div>
-                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                <a href="objects/tank/index__.html">
+                    <div class="main-pro-title">Tank</div>
+                    <div class="main-pro-content">由原生js+canvas实现的坦克大战游戏，练习原生js</div>
+                </a>
+            </div>
+
+            <div class="main-pro">
+                <a href="objects/js-todolist/index.html">
+                    <div class="main-pro-title">js-todolist</div>
+                    <div class="main-pro-content">由原生js开发的todolist, 数据存储在本地，用以练习原生js</div>
+                </a>
+            </div>
+
+            <div class="main-pro">
+                <a href="objects/bootstrap-page/index.html">
+                    <div class="main-pro-title">bootstrap练习</div>
+                    <div class="main-pro-content">运用bootstrap开发的静态页面，用以练习bootstrap</div>
                 </a>
             </div>
             <div class="main-pro">
-                <a href="#">
-                    <div class="main-pro-title">项目</div>
-                    <div class="main-pro-content">项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍项目介绍</div>
+                <a href="Resume/index.html">
+                    <div class="main-pro-title">在线简历</div>
+                    <div class="main-pro-content">html+css制作的静态简历页面，部署在github上</div>
                 </a>
             </div>
         </div>

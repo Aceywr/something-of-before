@@ -1,0 +1,117 @@
+.navbar-brand {
+    padding: 0;
+}
+.my-slide {
+    background-color: #2b80d9;
+} 
+.my-info {
+    background-color: #fbfaf7;
+}
+.my-info h1 {
+    font-weight: bold;
+    color: #0078d7;
+    padding-top: 50px;
+}
+.my-info h3 {
+    color: #666666;
+    padding-bottom: 50px;
+}
+.my-phone {
+    padding-top: 100px;
+}
+.my-adv h1{
+    font-weight: bold;
+    color: #8fc31f;
+    padding: 50px 0 30px 0;
+}
+.my-cup {
+    padding: 100px;
+}
+.my-row {
+    padding: 10px;
+    line-height: 50px;
+    color: #666;
+}
+.my-fm {
+    color: #fff;
+    background-color:#0079d7;
+    padding: 50px;
+}
+.my-fm-title {
+    text-align: center;
+}
+.my-fm-main {
+    padding-top:50px; 
+}
+.my-fm-main h4 {
+    font-size: 20px;
+    padding-left:40px; 
+}
+.my-fm-main p {
+    font-size: 12px;
+    padding-left:40px; 
+}
+.my-fm-row {
+    padding: 20px;
+}
+.my-game {
+    margin: 30px;
+    text-align: center;
+}
+.my-game-img {
+    margin: 10px 0;
+}
+.my-game span {
+    display: block;
+}
+.my-game-video {
+    margin: 20px 0;
+}
+.my-game-video img {
+    width: 100%;
+}
+.my-game h2 {
+    padding: 20px 0;
+    text-align: left;
+}
+.my-more {
+    display: block;
+    margin-top: 50px;
+}
+.my-coop {
+    background-color:#fbfaf7; 
+}
+.my-coop-title {
+    text-align: left;
+    padding: 20px 0;
+}
+.my-coop-title span {
+    font-size: 14px;
+    color: #666;
+}
+.my-coop-img {
+    border:1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px 0;
+    width: 100%;
+}
+.my-game-div {
+    margin: 10px 0;
+}
+.my-footer {
+    background-color: #3b3b3b;
+    color: #999;
+    padding: 30px;
+}
+.my-footer-contact {
+    padding: 10px 0;
+}
+/* 小屏幕（平板，大于等于 768px） */
+@media (min-width: 768px) { 
+    
+ }
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) { 
+    .container {width: 992px;}
+ }

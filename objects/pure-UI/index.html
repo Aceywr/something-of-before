@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pure-UI</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container m">
+        <div class="wrap">
+            <h1>Pure-UI - Documentation</h1>
+            <h2 class="m">关于</h2>
+            <p>Pure-UI由ES6module+webpack开发的一套组件化UI框架，主要服务于前台及中后台产品，各项功能正在持续更新中</p>
+            <h2 class="m">目录结构</h2>
+            <pre>
+            <code class="js"> 
+                |-- Pure-ui/                  //模板项目
+                |    |-- css/                     //css文件
+                |    |-- font/                    //字体文件
+                |    |-- img/                     //图片文件
+                |    |-- js/                      //js文件
+                |    |-- lib/                     //模块库以外的js文件
+                |    |-- index.html               //索引页
+                |    |-- public/                  //项目公共文件
+                |    |-- modules/                 //本地模块库(可选)
+                |    `-- favicon.ico              //网页图标
+                </code>
+            </pre>
+            <h2 class="m">下载</h2>
+            <p>Github: <a href="https://github.com/Aceywr/Pure-UI">Pure-UI</a></p>
+            <h2 class="m">快速使用</h2>
+            <p>1.用webpack创建项目；</p>
+            <p>2.拷贝Pure-ui/到项目中；</p>
+        </div>
+        <div class="wrap">
+            <h2 class="m">Buttons</h2>
+            <div class="row">
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-default">普通按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-primary">主色按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-auxiliary">普通按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-info">普通按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-success">普通按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-warning">普通按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-danger">危险按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-ghost btn-primary">幽灵按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-ghost btn-auxiliary">幽灵按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-ghost btn-info">幽灵按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-ghost btn-success">幽灵按钮</a>
+                </div>
+                <div class="span-2 m-b">
+                    <a href="" class="btn btn-block btn-ghost btn-warning">幽灵按钮</a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <h2 class="m">Date</h2>
+            <input type="text" data-toggle="datepicker" placeholder="日期">
+        </div>
+        <div class="wrap">
+            <h2 class="m">Menu</h2>
+            <nav id="menu"></nav>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>
